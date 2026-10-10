@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jarallax.css">
+    <script src="https://kit.fontawesome.com/0cdc049c53.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <section id="main">
+        <section id="home">
+            <header>
+                <nav>
+                    <ul id="menu">
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        <li onclick="btn()"><a href="#home">Home</a></li>
+                        <li onclick="btn()"><a href="#explore">Explore</a></li>
+                        <li onclick="btn()"><a href="#properties">Properties</a></li>
+                        <li onclick="btn()"><a href="#about">About</a></li>
+                        <li onclick="btn()"><a href="#agents">Agents</a></li>
+                        <li onclick="btn()"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </header>
+            <div class="hero">
+                <h1>Fusion Alchemy</h1>
+            </div>
+        </section>
+        <section id="explore">
+            <div class="steps">
+                <div class="stepLeft">
+                    <a href="#agents"><button>Our Agents<i class="fa-solid fa-caret-right"></i></button></a>
+                    <a href="#testimonials"><button>Testimonials<i class="fa-solid fa-caret-right"></i></button></a>
+                </div>
+                <div class="stepRight">
+                    <div class="stepBx slide-in">
+                        <h3>1</h3>
+                        <div>
+                            <h4>Explore & Wishlist</h4>
+                            <p>Explore the properties in our website & wishlist you favorite one.</p>
+                        </div>
+                    </div>
+                    <div class="stepBx slide-in">
+                        <h3>2</h3>
+                        <div>
+                            <h4>Contact Us</h4>
+                            <p>Contact us through helpline and we will allocate available agents.</p>
+                        </div>
+                    </div>
+                    <div class="stepBx slide-in">
+                        <h3>3</h3>
+                        <div>
+                            <h4>Plan Your Visit</h4>
+                            <p>Schedule a visit to inspect the property firsthand and evaluate its suitability for your
+                                needs.</p>
+                        </div>
+                    </div>
+                    <div class="stepBx slide-in">
+                        <h3>4</h3>
+                        <div>
+                            <h4>Buy or Rent</h4>
+                            <p>Securely make payments for property purchases or rentals, ensuring a smooth transaction.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay">
+                <a href="#villa">
+                    <div class="overlayImg">
+                        <img src="images/villa.jpg" alt="">
+                        <div class="overlayBx">
+                            <div class="nameBx">
+                                <h3>Luxurious, spacious, private retreat.</h3>
+                            </div>
+                            <div class="overlayDet">
+                                <h5>Villa</h5>
+                                <h6>rent/buy</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#condominium">
+                    <div class="overlayImg">
+                        <img src="images/condominium.jpg" alt="">
+                        <div class="overlayBx">
+                            <div class="nameBx">
+                                <h3>Shared ownership, communal amenities.</h3>
+                            </div>
+                            <div class="overlayDet">
+                                <h5>condominium</h5>
+                                <h6>rent/buy</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#victorian">
+                    <div class="overlayImg">
+                        <img src="images/victorian.jpg" alt="">
+                        <div class="overlayBx">
+                            <div class="nameBx">
+                                <h3>Ornate, historic, intricate architecture.</h3>
+                            </div>
+                            <div class="overlayDet">
+                                <h5>Victorian</h5>
+                                <h6>buy</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#townhouse">
+                    <div class="overlayImg">
+                        <img src="images/townhouse.jpg" alt="">
+                        <div class="overlayBx">
+                            <div class="nameBx">
+                                <h3>Connected units, shared walls.</h3>
+                            </div>
+                            <div class="overlayDet">
+                                <h5>Townhouse</h5>
+                                <h6>rent/buy</h6>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="properties">
+            <!-- <div class="oddIntro Intro">
+                <div class="introLeft">
+                    <h6><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i
+                            class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i
+                            class="fa-solid fa-minus"></i>Townhouse</h6>
+                    <h4>Connected units, shared walls.</h4>
+                    <p>Townhouses are narrow, multi-level residential homes typically sharing walls with neighboring
+                        units, offering a balance between privacy and community living.</p>
+                    <a href="#townhouse"><button class="comic-button">Explore</button></a>
+                </div>
+                <div class="introRight">
+                    <img src="images/intro2.jpg" alt="" class="img-small">
+                    <img src="images/intro1.jpg" alt="" class="img-big">
+                </div>
+            </div> -->
+            <div id="townhouse">
+                <div class="thContainer">
+                    <div class="sellerCard">
+                        <img src="images/th1.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Townhouse</h4>
+                            <h4>$70k/$800</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/th2.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Townhouse</h4>
+                            <h4>$70k/$800</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/th3.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Townhouse</h4>
+                            <h4>$70k/$800</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/th4.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Townhouse</h4>
+                            <h4>$70k/$800</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/th5.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Townhouse</h4>
+                            <h4>$70k/$800</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/th6.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Townhouse</h4>
+                            <h4>$70k/$800</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="evenIntro Intro">
+                <div class="introLeft">
+                    <h6><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i
+                            class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i
+                            class="fa-solid fa-minus"></i>Victorian</h6>
+                    <h4>Ornate, historic, intricate architecture.</h4>
+                    <p>Victorian houses are characterized by elaborate details, steep roofs, asymmetrical facades,
+                        and ornate decorations, showcasing the grandeur of the Victorian era.</p>
+                    <a href="#victorian"><button class="comic-button">Explore</button></a>
+                </div>
+                <div class="introRight">
+                    <img src="images/intro3.jpg" alt="" class="img-small">
+                    <img src="images/intro4.jpg" alt="" class="img-big">
+                </div>
+            </div> -->
+            <div id="victorian">
+                <div class="thContainer">
+                    <div class="sellerCard">
+                        <img src="images/victorian1.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Victorian</h4>
+                            <h4>$300k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/victorian2.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Victorian</h4>
+                            <h4>$550k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/victorian3.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Victorian</h4>
+                            <h4>$285k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/victorian4.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Victorian</h4>
+                            <h4>$190k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/victorian5.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Victorian</h4>
+                            <h4>$450k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/victorian6.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Victorian</h4>
+                            <h4>$320k</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="oddIntro Intro">
+                <div class="introLeft">
+                    <h6><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i
+                            class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i
+                            class="fa-solid fa-minus"></i>Condominium</h6>
+                    <h4>Shared ownership, communal amenities.</h4>
+                    <p>Condominiums are individually owned units within a larger complex, offering amenities and
+                        shared responsibilities through a homeowners' association.</p>
+                    <a href="#condominium"><button class="comic-button">Explore</button></a>
+                </div>
+                <div class="introRight">
+                    <img src="images/intro6.jpg" alt="" class="img-small">
+                    <img src="images/intro5.jpg" alt="" class="img-big">
+                </div>
+            </div> -->
+            <div id="condominium">
+                <div class="thContainer conContainer">
+                    <div class="sellerCard">
+                        <img src="images/condo1.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Condominium</h4>
+                            <h4>$80k/$700</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/condo2.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Condominium</h4>
+                            <h4>$77k/$720</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/condo3.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Condominium</h4>
+                            <h4>$62k/$580</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/condo4.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Condominium</h4>
+                            <h4>$65k/$600</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/condo5.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Condominium</h4>
+                            <h4>$50k/$450</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/condo6.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Condominium</h4>
+                            <h4>$105k/$800</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="evenIntro Intro">
+                <div class="introLeft">
+                    <h6><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i
+                            class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i
+                            class="fa-solid fa-minus"></i>Villa</h6>
+                    <h4>Luxurious, spacious, private retreat.</h4>
+                    <p>Villa houses are expansive, elegant residences often found in desirable locations, featuring
+                        luxurious amenities and a sense of refined living.</p>
+                    <a href="#villa"><button class="comic-button">Explore</button></a>
+                </div>
+                <div class="introRight">
+                    <img src="images/intro7.jpg" alt="" class="img-small">
+                    <img src="images/intro8.jpg" alt="" class="img-big">
+                </div>
+            </div> -->
+            <div id="villa">
+                <div class="thContainer villaContainer">
+                    <div class="sellerCard">
+                        <img src="images/villa1.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Villa</h4>
+                            <h4>$320k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/villa2.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Villa</h4>
+                            <h4>$225k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/villa3.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Villa</h4>
+                            <h4>$280k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/villa4.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Villa</h4>
+                            <h4>$450k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/villa5.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Villa</h4>
+                            <h4>$350k</h4>
+                        </div>
+                    </div>
+                    <div class="sellerCard">
+                        <img src="images/villa6.jpg" alt="">
+                        <div class="sellerBx">
+                            <h4>Villa</h4>
+                            <h4>$190k</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="aboutUs">
+                <div class="aboutImg">
+                    <div>
+                        <h3>4.5</h3>
+                        <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star-half"></i></span>
+                        <h6>Trusted on</h6>
+                        <h5>100k+ user reviews</h5>
+                    </div>
+                </div>
+                <div class="aboutBx">
+                    <h5>About Us</h5>
+                    <h3>Unlock Your Real Estate Journey: Discover Our Property Marketplace</h3>
+                    <p>Welcome to our property marketplace, where your real estate journey begins. We are dedicated to
+                        helping you find your dream home or sell your property with ease. With our user-friendly
+                        platform, extensive listings, and expert guidance, we strive to make your experience seamless
+                        and rewarding. Start exploring today!.</p>
+                    <a href="#services"><button class="button">
+                            <div>
+                                <span>
+                                    <p>Services</p>
+                                    <p>:)</p>
+                                </span>
+                            </div>
+                            <div>
+                                <span>
+                                    <p>Services</p>
+                                    <p>:D</p>
+                                </span>
+                            </div>
+                        </button></a>
+                </div>
+            </div>
+            <div id="different">
+                <div class="diffLeft">
+                    <div class="diffContent">
+                        <h3>What Makes us different from others?</h3>
+                        <p>At our property selling website, what sets us apart is our unwavering commitment to customer
+                            satisfaction. With a user-friendly interface, extensive property listings, personalized
+                            assistance, and innovative features like virtual tours, we strive to provide a seamless and
+                            tailored experience. Trust us to make your real estate journey exceptional.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <h3>4k+</h3>
+                                <h5>Properties Listed</h5>
+                            </div>
+                            <div class="stat">
+                                <h3>1.5k+</h3>
+                                <h5>Properties Sold/Rented</h5>
+                            </div>
+                            <div class="stat">
+                                <h3>50+</h3>
+                                <h5>Agents Available</h5>
+                            </div>
+                            <div class="stat">
+                                <h3>20+</h3>
+                                <h5>Countries Available</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="diffRight">
+                    <div class="diffImg">
+                        <img src="images/diff2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="benefitsBx" id="services">
+                <div class="benefitCard slide-in">
+                    <img src="images/home.svg" alt="">
+                    <h4>Property Listings</h4>
+                    <p>Explore a wide range of properties for sale or rent, complete with detailed information and
+                        high-quality images.</p>
+                </div>
+                <div class="benefitCard slide-in">
+                    <img src="images/analysis.svg" alt="">
+                    <h4>Property Valuation</h4>
+                    <p>Get an accurate estimate of your property's market value to make informed pricing decisions.</p>
+                </div>
+                <div class="benefitCard slide-in">
+                    <img src="images/tour.svg" alt="">
+                    <h4>Virtual Tours</h4>
+                    <p>Experience properties from the comfort of your home with immersive virtual tours, saving time and
+                        effort.</p>
+                </div>
+                <div class="benefitCard slide-in">
+                    <img src="images/money.svg" alt="">
+                    <h4>Mortgage Assistance</h4>
+                    <p>Access professional guidance and support to navigate the mortgage process and secure the best
+                        financing options.</p>
+                </div>
+                <div class="benefitCard slide-in">
+                    <img src="images/books.svg" alt="">
+                    <h4>Property Management</h4>
+                    <p>Simplify property ownership with easy management services, tenant screening &
+                        maintenance.</p>
+                </div>
+                <div class="benefitCard slide-in">
+                    <img src="images/handshake.svg" alt="">
+                    <h4>Legal Support</h4>
+                    <p>Receive expert legal advice and assistance throughout the buying or selling process to ensure a
+                        smooth and hassle-free transaction.</p>
+                </div>
+            </div>
+        </section>
+        <section id="agents">
+            <div class="teamHead">
+                <h2>Our Agents</h2>
+            </div>
+            <div class="team">
+                <div class="member" draggable="true">
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="credits">
+                        <h4>Sakata Gintoki</h4>
+                        <span>Tokyo</span>
+                    </div>
+                </div>
+                <div class="member" draggable="true">
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="credits">
+                        <h4>Okita Sogo</h4>
+                        <span>New York</span>
+                    </div>
+                </div>
+                <div class="member" draggable="true">
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="credits">
+                        <h4>Hayasaka Ai</h4>
+                        <span>Berlin</span>
+                    </div>
+                </div>
+                <div class="member" draggable="true">
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="credits">
+                        <h4>Jason Roy</h4>
+                        <span>London</span>
+                    </div>
+                </div>
+                <div class="member" draggable="true">
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="credits">
+                        <h4>Tsukuyo</h4>
+                        <span>Hong Kong</span>
+                    </div>
+                </div>
+                <div class="member" draggable="true">
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="credits">
+                        <h4>Hayakawa AKi</h4>
+                        <span>Sydney</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="testimonyHead">
+                <h2>look What our clients have to say</h2>
+            </div>
+            <div class="testimonyContainer">
+                <div class="testimony" data-jarallax-element="0 -100">
+                    <div class="testimonyCard">
+                        <img src="images/quotes.svg" alt="">
+                        <p>I found my dream home within days of using the website. The listings were accurate, and the
+                            whole buying process was smooth and efficient. Highly recommended! - Emily S.</p>
+                    </div>
+                </div>
+                <div class="testimony" data-jarallax-element="0 -100">
+                    <div class="testimonyCard">
+                        <img src="images/quotes.svg" alt="">
+                        <p>Renting through this website was a breeze. The search filters helped me narrow down options,
+                            and
+                            the virtual tours made it easy to explore properties remotely. I secured a great rental
+                            within a
+                            week! - Michael L.</p>
+                    </div>
+                </div>
+                <div class="testimony" data-jarallax-element="0 -100">
+                    <div class="testimonyCard">
+                        <img src="images/quotes.svg" alt="">
+                        <p>The customer support team went above and beyond to assist me throughout the home-buying
+                            journey.
+                            Their guidance and responsiveness made the entire process stress-free. - Sarah M.</p>
+                    </div>
+                </div>
+                <div class="testimony" data-jarallax-element="0 -100">
+                    <div class="testimonyCard">
+                        <img src="images/quotes.svg" alt="">
+                        <p>I was impressed with the extensive range of property options available on the website. From
+                            cozy
+                            apartments to spacious villas, I found exactly what I was looking for. Thank you! - David
+                            T.
+                        </p>
+                    </div>
+                </div>
+                <div class="testimony" data-jarallax-element="0 -100">
+                    <div class="testimonyCard">
+                        <img src="images/quotes.svg" alt="">
+                        <p>As a first-time buyer, I had many questions and concerns. The website's resources and
+                            articles
+                            provided valuable information, empowering me to make confident decisions. I'm now a proud
+                            homeowner! - Lisa K.</p>
+                    </div>
+                </div>
+                <div class="testimony" data-jarallax-element="0 -100">
+                    <div class="testimonyCard">
+                        <img src="images/quotes.svg" alt="">
+                        <p>I cannot recommend this website enough. The property management services helped me find
+                            reliable
+                            tenants quickly, taking away the stress of being a landlord. Excellent service! - Mark R.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contactCard">
+                <div class="contactLeft">
+                    <img src="images/4923070_sketch_icon.svg" alt="">
+                    <div>
+                        <h6>Contact</h6>
+                        <h4>Let's Create your next big project together.</h4>
+                    </div>
+                </div>
+                <div class="contactRight">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" id="" class="input" placeholder="Name">
+                        <input type="email" name="email" id="" class="input" placeholder="Email">
+                        <textarea name="message" id="msg" cols="30" rows="10" class="message" placeholder="Message"></textarea>
+                        <input type="submit" value="Send Message" class="submit">
+                        <span id="msg"></span>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="index.js" defer></script>
+    <script src="jarallax.js"></script>
+    <script src="jarallax-element.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>
